@@ -1,0 +1,55 @@
+/* 全選選擇器 */
+* {
+  margin: 0px;
+  padding: 0px;
+  /* 很重要自己查 */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* 逗點的意思是兩個都選 */
+html,
+body {
+  /* 把html跟body的大小撐開 */
+  width: 100vw;
+  height: 100vh;
+  font: 16px;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1bae47e; /* 新增的背景顏色 */
+}
+
+#head {
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+img {
+  box-shadow: -4px 4px 10px 1px rgba(0, 0, 0, 0.2); /* 陰影效果 */
+  border-radius: .5rem; /* 圓角邊框 */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* 左右兩邊分開 */
+  align-items: center; /* 垂直置中對齊 */
+  padding: 10px; /* 可選的內邊距 */
+  background-color: #f0f0f0; /* 可選的背景顏色 */
+}
+
+.left {
+  background-color: lightblue; /* 左邊的背景顏色 */
+  padding: 10px;
+}
+
+.right {
+  background-color: lightgreen; /* 右邊的背景顏色 */
+  padding: 10px;
+}
